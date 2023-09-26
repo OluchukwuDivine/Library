@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#05162c;
+    color: white;
+}
+.container{
+    margin-top: 5vh;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 200px 1fr;
+    grid-template-rows: 1fr 30px;
+} 
+.heading{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
+#newbookbtn{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 1px solid white;
+    background: white;
+    color: #05162c;
+}
+#newbookbtn:hover{
+    background: #05162c;
+    color: white;
+    transition: 0.5s;
+}
+.form{
+    width: 300px;
+    padding: 15px;
+    display: none;
+    border-radius: 5px;
+    margin: 30px auto;
+    background: white;
+    color: black;
+}
+.form .inputs{
+    display: block;
+    margin: 8px auto;
+    padding: 2px;
+    width: 90%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #05162c;
+}
+#read{
+    display: flex;
+    margin: 5px 0px 5px 10px;
+}
+label{
+    display: block;
+    margin: 10px 0px 5px 10px;
+}
+.form button{
+    display: block;
+    width: 100%;
+    margin: 30px auto 0px auto;
+    padding: 8px;
+    color: white;
+    background: #071d3a;
+    border: 1px solid #05162c;
+    font-weight: bold;
+}
+.form button:hover{
+    background: #041327;
+}
+
+
+/* Styles for elements creayed with the javascript  */
+
+.book-card{
+    border: 1px solid white;
+    padding: 20px;
+    margin: 30px;
+}
+.card-header{
+
+}
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.author{
+    color: antiquewhite;
+    margin-top: 3px;
+}
+/* .card-body{
+    Might add some stylings later
+} */
+.read-status{
+    color: aqua;
+    margin-top: 5px;
+}
+.remove-btn{
+    display: block;
+    margin: 10px auto 5px auto;
+    width: 90%;
+    background: rgb(139, 29, 29);
+    color: white;
+    padding: 4px;
+    border: 1px solid rgb(139, 29, 29);
+    border-radius: 4px;
+}
+.remove-btn:hover{
+    background: rgb(85, 17, 17);
+}
+.toggle-read-btn{
+    display: block;
+    margin: auto;
+    width: 90%;
+    background: rgb(194, 194, 32);
+    color: white;
+    padding: 4px;
+    border: 1px solid rgb(194, 194, 32);
+    border-radius: 4px;
+}
+.toggle-read-btn:hover{
+    background: rgb(131, 131, 31);
+}

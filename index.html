@@ -8,10 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+<div class="container">
+    <p class="heading">Library</p>
+    <button id="newbookbtn">+ New Book</button>
+</div>
 
-
-
+<div class="form">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" class="inputs">
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author" class="inputs">
+    <label for="pages">Pages:</label>
+    <input type="number" id="pages" name="pages" class="inputs">
+    <label for="read">Read:</label>
+    <input type="checkbox" name="read" id="read">
+    <button id="addbookbtn">Add Book</button>
+    <button id="donebtn">Done</button>
+</div>
+<div class="library" style="display: flex;"></div>
     <script src="main.js"></script>
 </body>
 </html>
