@@ -82,9 +82,9 @@ label{
     padding: 20px;
     margin: 30px;
 }
-.card-header{
-
-}
+/* .card-header{
+    Might add some stylings later
+} */
 .title{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -93,7 +93,7 @@ label{
     margin-top: 3px;
 }
 /* .card-body{
-    Might add some stylings later
+    Might also add some stylings later
 } */
 .read-status{
     color: aqua;
